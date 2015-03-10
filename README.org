@@ -1,0 +1,2 @@
+* A generic PostgreSQL database container for docker
+This repository stores the Dockerfile required to build a generic Postgresql database container
