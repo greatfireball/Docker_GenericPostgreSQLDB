@@ -1,4 +1,11 @@
-** Generic database image
+* A generic PostgreSQL database container for docker
+** Introduction
+   This project was originally initiated during the development of our
+   [[https://github.com/TBroTeam/TBro][Transcript Browser (TBro)]]. We want to create a PostgreSQL database
+   container, which is able to provide a basic security level and
+   which creates a new empty database during database creation
+   process.
+** Source code
    We start from the default postgres container
    #+BEGIN_SRC sh :tangle ../docker/Dockerfile
      FROM postgres:9.4
