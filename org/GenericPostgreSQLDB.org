@@ -5,6 +5,8 @@
    container, which is able to provide a basic security level and
    which creates a new empty database during database creation
    process.
+** Version
+   0.1
 ** Source code
    We start from the default postgres container
    #+BEGIN_SRC sh :tangle ../docker/Dockerfile
