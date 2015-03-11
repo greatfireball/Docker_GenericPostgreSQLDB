@@ -13,6 +13,7 @@
    We start from the default postgres container
    #+BEGIN_SRC sh :tangle ../docker/Dockerfile
      FROM postgres:9.4
+     MAINTAINER Frank Förster <frank.foerster@biozentrum.uni-wuerzburg.de>
    #+END_SRC
 
    #+BEGIN_SRC sh :tangle ../docker/000_fix-acl.sh :shebang "#!/bin/bash"
