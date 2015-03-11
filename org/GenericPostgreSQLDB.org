@@ -9,6 +9,7 @@
    0.1
 ** Description
 ** Source code
+*** Starting point
    We start from the default postgres container
    #+BEGIN_SRC sh :tangle ../docker/Dockerfile
      FROM postgres:9.4
