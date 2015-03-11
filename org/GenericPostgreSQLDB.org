@@ -67,3 +67,6 @@
 
 ** History
    <2015-03-11 Mi> First version of the standalone database container
+   - Inital import of the source code base
+   - Cleaning of the code base
+   - Rewritten Building section
