@@ -4,7 +4,7 @@ DB_NAME=${DB_NAME:-mydatabase}
 DB_PW=${DB_PW:-mypassword}
 DB_USER=${DB_USER:-myuser}
 echo "******CREATING DOCKER DATABASE******"
-gosu postgres postgres --single <<- EOSQL
+gosu postgres psql <<- EOSQL
    CREATE DATABASE $DB_NAME;
    CREATE ROLE $DB_USER ENCRYPTED PASSWORD '$DB_PW' SUPERUSER CREATEDB NOCREATEROLE INHERIT LOGIN;
    ALTER DATABASE $DB_NAME OWNER TO $DB_USER;
